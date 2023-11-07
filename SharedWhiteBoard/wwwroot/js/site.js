@@ -46,8 +46,6 @@ $(canvas).on('mousemove', function (e) {
     }
     last_mousex = mousex;
     last_mousey = mousey;
-
-    //$('#output').html('current: ' + mousex + ', ' + mousey + '<br/>last: ' + last_mousex + ', ' + last_mousey + '<br/>mousedown: ' + mousedown);
 });
 
 var connection = new signalR.HubConnectionBuilder()
